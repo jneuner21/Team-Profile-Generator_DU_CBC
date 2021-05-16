@@ -4,6 +4,7 @@ const Employee = require('./library/Employee')
 const Engineer = require('./library/Engineer')
 const Intern = require('./library/Intern')
 const Manager = require('./library/Manager')
+const generateHTML = require('./generateHTML')
 
 const questions =  [
 
@@ -20,7 +21,7 @@ function writeToFile(fileName, data) {
 
 function init() {
     inquirer.prompt(questions).then((data) => {
-    writeToFile("../Index.html", generateMarkdown(data));
+    writeToFile("../Index.html", generateHTML(data));
     })
 }
 
