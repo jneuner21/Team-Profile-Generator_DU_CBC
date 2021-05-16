@@ -1,0 +1,24 @@
+{
+  "name": "team-profile-generator_du_cbc",
+  "version": "1.0.0",
+  "description": "Creating a team profile generator ",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jneuner21/Team-Profile-Generator_DU_CBC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jneuner21/Team-Profile-Generator_DU_CBC/issues"
+  },
+  "homepage": "https://github.com/jneuner21/Team-Profile-Generator_DU_CBC#readme"
+}
