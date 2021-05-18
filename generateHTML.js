@@ -1,4 +1,4 @@
-function generateHTML(data) {
+function writeHTML(data) {
 
 //write all styling and html below  
     return `
@@ -62,5 +62,5 @@ function generateHTML(data) {
 
   `;
   }
-  
-  module.exports = generateHTML;
+
+  module.exports generateHTML;
