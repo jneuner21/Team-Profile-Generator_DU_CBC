@@ -191,8 +191,10 @@ listTeamIntern = () => {
 
 //create html here
 //this code is incomplete somewhere. it will generate html but will spit out errors. if no errors no html???
+
+
 const fileExport = (fileName, data) => {
-  return fs.writeFile(path.join("/dist", fileName), data, (err) =>
+  return fs.writeFile("./dist/index.html", data, (err) =>
     err ? console.error(err) : console.log("success!")
   );
 };
