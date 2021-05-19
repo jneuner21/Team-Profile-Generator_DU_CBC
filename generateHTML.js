@@ -63,4 +63,4 @@ function writeHTML(data) {
   `;
   }
 
-  module.exports generateHTML;
+  module.exports = writeHTML;
