@@ -17,6 +17,7 @@ no install required run, run this code through VS code
 
 known issues with code right now. unsure why but html will load half of the time
 
+
 ## Usage
 
 open Vs.code, open terminal in vs code and enter 'npm run test', once tests.js have run and pass run node index.js, answer prompts, when you have finished entering team mates click 'no', HTML will generate from there
@@ -24,6 +25,8 @@ open Vs.code, open terminal in vs code and enter 'npm run test', once tests.js h
 If code is executed correctly it will look like this
 
 ![screenshot of running HTML](assets/screenshot.jpeg)
+
+![video link](https://drive.google.com/file/d/1761PfZrWpPc-T9KycBi3z-oanmhBeGQ6/view)
 
 If photo did not load screenshot.jpeg is located in assets folder
 
